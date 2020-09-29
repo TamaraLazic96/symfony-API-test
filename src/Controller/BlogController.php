@@ -47,7 +47,7 @@ class BlogController extends AbstractController
      * @param $post
      * @return JsonResponse
      */
-    public function postById($post)
+    public function post($post)
     {
         return $this->json($post);
     }
